@@ -61,6 +61,13 @@
             transform: translateY(-50%);
             z-index: 1;
         }
+
+        img {
+            max-width: 90%;
+            height: auto;
+            border-radius: 15px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -79,9 +86,10 @@
 
     function yesClick() {
         document.body.innerHTML = `
-        <div style="height:100vh;display:flex;justify-content:center;align-items:center;
+        <div style="height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;
         background:linear-gradient(135deg,#ff9a9e,#fad0c4);font-family:Arial;text-align:center;">
-            <h1 style="color:#e63946;">Kocham Cię, misiaku! 💕</h1>
+            <h1 style="color:#e63946;">Kocham Cię, mamatko! 💕</h1>
+            <img src="https://giffiles.alphacoders.com/190/190051.gif" alt="❤️">
         </div>`;
     }
 
